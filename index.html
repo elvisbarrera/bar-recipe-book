@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brasão — Bar Recipe Book</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <div class="brasao-logo">Brasão Brazilian Steakhouse</div>
+  <div class="header-eyebrow">Internal Use Only · Bar Program</div>
+  <div class="header-ornament"><div class="ornament-line"></div><div class="ornament-diamond"></div><div class="ornament-line"></div></div>
+  <h1>The <span>Cocktail</span> Book</h1>
+  <p class="header-subtitle">60 Recipes · Curated Bar Menu</p>
+</header>
+
+<!-- CATEGORY FILTER -->
+<div class="filter-bar" id="filterBar"></div>
+
+<!-- SEARCH -->
+<div class="search-section">
+  <div class="search-wrapper">
+    <span class="search-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></span>
+    <input type="text" id="searchInput" placeholder="Search cocktails by name…" autocomplete="off" spellcheck="false"/>
+  </div>
+  <div class="search-meta">
+    <span class="search-hint">Type to filter · Names starting with…</span>
+    <span class="result-count" id="resultCount"></span>
+  </div>
+</div>
+
+<!-- ALPHABET -->
+<div class="alpha-bar" id="alphaBar"></div>
+
+<main><div class="cocktails-grid" id="cocktailsGrid"></div></main>
+
+<footer><div class="footer-logo">Brasão Bar Recipes</div><div>Internal Use Only · All Rights Reserved</div></footer>
+
+<!-- MODAL -->
+<div class="modal-backdrop" id="modalBackdrop" onclick="closeModal(event)">
+  <div class="modal" id="modal">
+    <button class="modal-close" onclick="closeModalBtn()">✕</button>
+    <img id="modalImg" src="" alt="" class="modal-image"/>
+    <div class="modal-image-overlay"></div>
+    <div class="modal-content">
+      <div class="modal-eyebrow" id="modalEyebrow"></div>
+      <div class="modal-title" id="modalTitle"></div>
+      <div class="modal-desc" id="modalDesc"></div>
+      <div class="modal-meta-row" id="modalMeta"></div>
+      <div class="modal-section-title">— Ingredients</div>
+      <ul class="modal-ingredients" id="modalIngredients"></ul>
+      <div class="modal-section-title">— Method</div>
+      <p class="modal-method" id="modalMethod"></p>
+      <div class="modal-garnish-box" id="modalGarnish"></div>
+    </div>
+  </div>
+</div>
+  <script src="script.js"></script>
+</body>
+</html>
