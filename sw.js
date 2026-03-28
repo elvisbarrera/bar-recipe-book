@@ -1,4 +1,4 @@
-const CACHE_NAME = 'brasao-bar-v9';
+const CACHE_NAME = 'brasao-bar-v10';
 const ASSETS = [
   './',
   './index.html',
