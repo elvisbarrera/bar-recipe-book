@@ -321,7 +321,7 @@ const cocktails = [
     ingredients: [{ name: "Cucumber Slices", amount: "2" }, { name: "Basil Leaves", amount: "1-2" }, { name: "Gin", amount: "2oz" }, { name: "St.Germain", amount: "3/4oz" }, { name: "Lime Juice", amount: "3/4oz" }, { name: "Simple Syrup", amount: "1/2oz" }]
   },
   {
-    name: "Love in Summer", category: "Classics", glass: "Collins Glass", glassIcon: "🥤",
+    name: "Summer Love", category: "Classics", glass: "Collins Glass", glassIcon: "🥤",
     image: "2026-cocktails/love-in-summer-website.jpg",
     desc: "A summer romance in a glass. Rum, Velvet Falernum and Orgeat with fresh lime — light, tropical and utterly refreshing.",
     garnish: "Lime Wheel & Maraschino Cherry",
@@ -493,13 +493,13 @@ const cocktails = [
     ingredients: [{ name: "Pisco", amount: "1oz" }, { name: "Pineapple Serrano Infused Cachaça®", amount: "1oz" }, { name: "Lemon Juice", amount: "3/4oz" }, { name: "Simple Syrup", amount: "3/4oz" }, { name: "Egg White", amount: "1" }]
   },
   {
-    name: "Carajillo", category: "Originals", glass: "Rocks Glass", glassIcon: "🥃",
+    name: "Carajillo", category: "Originals", glass: "Snifter", glassIcon: "🍹",
     image: "2026-cocktails/carajillo-website.jpg",
-    desc: "Spain's beloved coffee cocktail — Licor 43 and hot espresso served over a large ice sphere for a stunning hot-meets-cold experience.",
-    garnish: "3 coffee beans & orange zest",
-    method: "Pull a fresh hot espresso shot. Pour Licor 43 into rocks glass over large sphere ice. Slowly pour hot espresso down the side of the glass to create layered effect. Garnish.",
-    ice: "Large Cube",
-    ingredients: [{ name: "Licor 43", amount: "1 1/2oz" }, { name: "Fresh Hot Espresso", amount: "1oz" }, { name: "Large Ice Sphere", amount: "1" }]
+    desc: "Spain's beloved coffee cocktail — Licor 43 and hot espresso served over ice for a stunning hot-meets-cold experience.",
+    garnish: "None",
+    method: "Add a hot espresso shot, Licor 43 and shake with ice. Pour into snifter glass.",
+    ice: "Regular Ice",
+    ingredients: [{ name: "Licor 43", amount: "1 1/2oz" }, { name: "Fresh Hot Espresso", amount: "1oz" }]
   },
   {
     name: "Life Changer", category: "Originals", glass: "Snifter", glassIcon: "🥃",
@@ -548,7 +548,7 @@ const cocktails = [
   },
   {
     name: "Crème Brulee Martini", category: "Originals", glass: "Coupe Glass", glassIcon: "🍸",
-    image: "2026-cocktails/brasao-logo.png",
+    image: "2026-cocktails/creme-brulee-martini-website.jpg",
     desc: "Rich, velvety and indulgent — Licor 43 Crème Brulee, Vanilla Vodka, heavy cream and Mr. Black with burnt caramel syrup, topped with whipped cream for an unforgettable dessert cocktail.",
     garnish: "3 Blueberries",
     method: "Add all ingredients. Shaken, Double strain. (Whip Cream in tin before shaking)",
@@ -750,9 +750,9 @@ const cocktails = [
     image: "2026-cocktails/ny-sour-website.jpg",
     desc: "New York's take on the classic whisky sour — silky egg white foam with a dramatic Merlot float. Bold, smooth and visually stunning.",
     garnish: "Maraschino Cherry",
-    method: "Add all ingredients. Dry Shaken, Shaken & double strain. Top with Merlot float. Add 2 dashes Angostura.",
+    method: "Add all ingredients. Dry Shaken, Shaken & double strain. Top with Merlot float.",
     ice: "Large Cube",
-    ingredients: [{ name: "Whisky", amount: "2oz" }, { name: "Lemon Juice", amount: "3/4oz" }, { name: "Simple Syrup", amount: "3/4oz" }, { name: "Egg White", amount: "1" }, { name: "Angostura Bitters", amount: "2 dashes" }, { name: "Merlot", amount: "float" }]
+    ingredients: [{ name: "Whisky", amount: "2oz" }, { name: "Lemon Juice", amount: "3/4oz" }, { name: "Simple Syrup", amount: "3/4oz" }, { name: "Egg White", amount: "1" }, { name: "Merlot", amount: "float" }]
   },
   {
     name: "Piña Colada", category: "Classics", glass: "Collins Glass", glassIcon: "🥤",
