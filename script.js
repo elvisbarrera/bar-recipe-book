@@ -170,7 +170,7 @@ const cocktails = [
   {
     name: "Bramble", category: "Classics", glass: "Rocks Glass", glassIcon: "🥃",
     image: "2026-cocktails/bramble-website.jpg",
-    desc: "A refreshing gin cocktail made with fresh lemon and a sweet drizzle of blackberry liqueur. Fruity, tart, and well-balanced.",
+    desc: "A refreshing gin cocktail made with fresh lemon and a sweet fresh blackberries. Fruity, tart, and well-balanced.",
     garnish: "Blackberries",
     method: "Add all ingredients besides the blackberries. Shaken, Double strain. (3 blackberries muddled at the bottom of the glass)",
     ice: "Crushed Ice",
