@@ -45,7 +45,7 @@ const cocktails = [
     garnish: "Orange Twist & Edible Flower",
     method: "Add all ingredients. Shaken & double strain.",
     ice: "Regular Ice",
-    ingredients: [{ name: "Ghost Tequila", amount: "2oz" }, { name: "Hibiscus Syrup", amount: "1/2oz" }, { name: "Agave", amount: "3/4oz" }, { name: "Triple Sec", amount: "3/4oz" }]
+    ingredients: [{ name: "Ghost Tequila", amount: "2oz" }, { name: "Hibiscus Syrup", amount: "1/2oz" }, { name: "Agave", amount: "3/4oz" }, { name: "Triple Sec", amount: "3/4oz" }, { name: "Lime Juice", amount: "3/4oz" }]
   },
   // ─── WINTER / LIMITED ────────────────────────────────────────────
   {
