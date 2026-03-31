@@ -97,7 +97,7 @@ const cocktails = [
   {
     name: "Premium Caipirinha", category: "Signature", glass: "Collins Glass", glassIcon: "🥤",
     image: "2026-cocktails/premium-caipirinha-website.jpg",
-    desc: "Flavors: Lime, Strawberry, Pineapple, Wild Berries or Coconut (Caipicoco). Blended with sugar and premium Gold Cachaça rum, shaken to perfection and served on the rocks.",
+    desc: "Flavors: Lime, Strawberry, Pineapple or Wild Berries. Blended with sugar and premium Gold Cachaça rum, shaken to perfection and served on the rocks.",
     garnish: "Lime Wheel",
     method: "Muddle the fruit. Add sugar and Premium Gold Cachaça. Shaken & Pour.",
     ice: "Regular Ice",
