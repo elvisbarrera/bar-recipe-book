@@ -39,7 +39,7 @@ const cocktails = [
     ingredients: [{ name: "Licor 43", amount: "2oz" }, { name: "White Rum", amount: "1oz" }, { name: "Espresso", amount: "1/2oz" }, { name: "Orange Juice", amount: "1/2oz" }, { name: "Lime Juice", amount: "1/2oz" }]
   },
   {
-    name: "Hibiscus Margarita 🌺 (Spicy)", category: "Seasonal", glass: "Rocks Glass (Tajín Rim)", glassIcon: "🥃",
+    name: "Hibiscus Margarita (Spicy)", category: "Seasonal", glass: "Rocks Glass (Tajín Rim)", glassIcon: "🥃",
     image: "2026-cocktails/hibiscus-margarita-(spicy)-website.jpg",
     desc: "A floral blend of hibiscus and fresh citrus, finished with a smooth, subtly spicy tequila note. Elegant, vibrant, unmistakably seasonal.",
     garnish: "Orange Twist & Edible Flower",
@@ -93,6 +93,15 @@ const cocktails = [
     method: "Muddle the fruit. Add sugar and Cachaça. Shaken & Pour.",
     ice: "Regular Ice",
     ingredients: [{ name: "Cachaça (Brazilian Rum)", amount: "2oz" }, { name: "Sugar", amount: "2 tbsp" }, { name: "Choice of Fruit", amount: "Lime/Strawberry/Pineapple/Tropical/Wild Berries" }]
+  },
+  {
+    name: "Premium Caipirinha", category: "Signature", glass: "Collins Glass", glassIcon: "🥤",
+    image: "2026-cocktails/premium-caipirinha-website.jpg",
+    desc: "Flavors: Lime, Strawberry, Pineapple, Wild Berries or Coconut (Caipicoco). Blended with sugar and premium Gold Cachaça rum, shaken to perfection and served on the rocks.",
+    garnish: "Lime Wheel",
+    method: "Muddle the fruit. Add sugar and Cachaça. Shaken & Pour.",
+    ice: "Regular Ice",
+    ingredients: [{ name: "Gold Cachaça (Brazilian Rum)", amount: "2oz" }, { name: "Sugar", amount: "2 tbsp" }, { name: "Choice of Fruit", amount: "Lime/Strawberry/Pineapple/Tropical/Wild Berries" }]
   },
   {
     name: "Caipiroska", category: "Signature", glass: "Collins Glass", glassIcon: "🥤",
