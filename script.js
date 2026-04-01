@@ -39,7 +39,7 @@ const cocktails = [
     ingredients: [{ name: "Licor 43", amount: "2oz" }, { name: "White Rum", amount: "1oz" }, { name: "Espresso", amount: "1/2oz" }, { name: "Orange Juice", amount: "1/2oz" }, { name: "Lime Juice", amount: "1/2oz" }]
   },
   {
-    name: "Hibiscus Margarita (Spicy)", category: "Seasonal", glass: "Rocks Glass (Tajín Rim)", glassIcon: "🥃",
+    name: "Hibiscus Margarita (Spicy)", category: "Signature", glass: "Rocks Glass (Tajín Rim)", glassIcon: "🥃",
     image: "2026-cocktails/hibiscus-margarita-(spicy)-website.jpg",
     desc: "A floral blend of hibiscus and fresh citrus, finished with a smooth, subtly spicy tequila note. Elegant, vibrant, unmistakably seasonal.",
     garnish: "Orange Twist & Edible Flower",
@@ -49,7 +49,7 @@ const cocktails = [
   },
   // ─── WINTER / LIMITED ────────────────────────────────────────────
   {
-    name: "Dark 'N' Stormy", category: "Limited", glass: "Collins Glass", glassIcon: "🥤",
+    name: "Dark 'N' Stormy", category: "Classics", glass: "Collins Glass", glassIcon: "🥤",
     image: "2026-cocktails/dark-and-stormy-website.jpg",
     desc: "Bold Brugal 1888 rum, zesty lime, and ginger spice — deep, warming, and perfectly cozy for winter nights.",
     garnish: "Lime Wheel",
@@ -58,7 +58,7 @@ const cocktails = [
     ingredients: [{ name: "Brugal 1888", amount: "2oz" }, { name: "Ginger Beer", amount: "4oz" }, { name: "Lime Juice", amount: "3/4oz" }]
   },
   {
-    name: "Coquito", category: "Limited", glass: "Rocks Glass", glassIcon: "🥃",
+    name: "Coquito", category: "Desserts", glass: "Rocks Glass", glassIcon: "🥃",
     image: "2026-cocktails/coquito-website.jpg",
     desc: "Creamy coconut and cinnamon blended with Brugal 1888 rum — rich, silky, and holiday-perfect.",
     garnish: "Cinnamon Stick & Cinnamon Powder",
@@ -67,7 +67,7 @@ const cocktails = [
     ingredients: [{ name: "Brugal 1888", amount: "1oz" }, { name: "Vanilla Vodka", amount: "1oz" }, { name: "Licor 43 Crème Brulee", amount: "1/2oz" }, { name: "Coco Lopez", amount: "1oz" }, { name: "Condensed Milk", amount: "1/2oz" }, { name: "Half & Half", amount: "3/4oz" }]
   },
   {
-    name: "Cranberry Mojito", category: "Limited", glass: "Collins Glass", glassIcon: "🥤",
+    name: "Cranberry Mojito", category: "Signature", glass: "Collins Glass", glassIcon: "🥤",
     image: "2026-cocktails/cranberry-mojito-website.jpg",
     desc: "Fresh mint, tart cranberry, and bright citrus — elevated with Brugal 1888 rum for a smooth, warm finish.",
     garnish: "Lime Wheel, Mint and 3 cranberries",
@@ -76,7 +76,7 @@ const cocktails = [
     ingredients: [{ name: "Cranberries", amount: "6" }, { name: "Mint", amount: "Pinch Of" }, { name: "Brugal 1888", amount: "2oz" }, { name: "Lime Juice", amount: "3/4oz" }, { name: "Simple Syrup", amount: "3/4oz" }, { name: "Cranberry Juice", amount: "1oz" }]
   },
   {
-    name: "Autumn Pineapple", category: "Limited", glass: "Rocks Glass", glassIcon: "🥃",
+    name: "Autumn Pineapple", category: "Signature", glass: "Rocks Glass", glassIcon: "🥃",
     image: "2026-cocktails/autumn-pineapple-website.jpg",
     desc: "(Abacaxi de Outono) Grilled pineapple with cinnamon and sugar meets cachaça, citrus, honey, and a touch of bitters, served over ice with a smoky pineapple and cinnamon garnish.",
     garnish: "Cinnamon Stick & Piece of Grilled Pineapple",
@@ -177,7 +177,7 @@ const cocktails = [
     ingredients: [{ name: "Bourbon or Rye Whiskey", amount: "2oz" }, { name: "Lime Juice", amount: "3/4oz" }, { name: "Simple Syrup", amount: "3/4oz" }, { name: "Fresh mint", amount: "A pinch of" }]
   },
   {
-    name: "Bramble", category: "Classics", glass: "Rocks Glass", glassIcon: "🥃",
+    name: "Bramble", category: "Signature", glass: "Rocks Glass", glassIcon: "🥃",
     image: "2026-cocktails/bramble-website.jpg",
     desc: "A refreshing gin cocktail made with fresh lemon and a sweet fresh blackberries. Fruity, tart, and well-balanced.",
     garnish: "Blackberries",
@@ -222,7 +222,7 @@ const cocktails = [
     ingredients: [{ name: "Gin", amount: "1oz" }, { name: "Boomsma", amount: "1oz" }, { name: "Maraschino Liqueur", amount: "1oz" }, { name: "Lemon Juice", amount: "1oz" }]
   },
   {
-    name: "Smoked Old Fashioned", category: "Classics", glass: "Rocks Glass", glassIcon: "🥃",
+    name: "Smoked Old Fashioned", category: "Signature", glass: "Rocks Glass", glassIcon: "🥃",
     image: "2026-cocktails/smoked-old-fashioned-website.jpg",
     desc: "Our elevated take on the timeless Old Fashioned — table-smoked with cherry wood for an intoxicating aroma and deep, smoky complexity.",
     garnish: "Orange peel & cherry, served with smoke",
@@ -249,7 +249,7 @@ const cocktails = [
     ingredients: [{ name: "Gin", amount: "1oz" }, { name: "Campari", amount: "1oz" }, { name: "Sweet Vermouth", amount: "1oz" }]
   },
   {
-    name: "Bellini Sunrise", category: "Classics", glass: "Flute Glass", glassIcon: "🥂",
+    name: "Bellini Sunrise", category: "Signature", glass: "Flute Glass", glassIcon: "🥂",
     image: "2026-cocktails/bellini-website.jpg",
     desc: "Venice's legendary brunch cocktail elevated with a sunrise effect. Peach Wine topped with a Chambord float for a stunning, fruity gradient.",
     garnish: "Maraschino Cherry",
@@ -258,7 +258,7 @@ const cocktails = [
     ingredients: [{ name: "Peach Wine", amount: "fill" }, { name: "Chambord", amount: "3/4oz" }]
   },
   {
-    name: "Peach 75", category: "Classics", glass: "Flute Glass", glassIcon: "🥂",
+    name: "Peach 75", category: "Signature", glass: "Flute Glass", glassIcon: "🥂",
     image: "2026-cocktails/peach-75-website.jpg",
     desc: "A peachy riff on the legendary French 75. Peach Vodka and lemon with a touch of simple syrup, topped with Prosecco for a sparkling, fruity celebration.",
     garnish: "Lemon Twist & Maraschino Cherry",
@@ -276,7 +276,7 @@ const cocktails = [
     ingredients: [{ name: "Rum", amount: "2oz" }, { name: "Lime Juice", amount: "3/4oz" }, { name: "Simple Syrup", amount: "3/4oz" }, { name: "Fresh mint", amount: "A pinch of" }]
   },
   {
-    name: "Grapefruit Martini", category: "Classics", glass: "Martini Glass (Tajín Rim)", glassIcon: "🍸",
+    name: "Grapefruit Martini", category: "Signature", glass: "Martini Glass (Tajín Rim)", glassIcon: "🍸",
     image: "2026-cocktails/grapefruit-martini-website.jpg",
     desc: "Citrus-forward and elegantly sharp. Ruby Red Vodka, Aperol and fresh lemon — served ice-cold in a Tajín-rimmed martini glass.",
     garnish: "Lemon Twist",
@@ -285,7 +285,7 @@ const cocktails = [
     ingredients: [{ name: "Ruby Red Vodka", amount: "2oz" }, { name: "Aperol", amount: "1oz" }, { name: "Lemon Juice", amount: "3/4oz" }, { name: "Simple Syrup", amount: "3/4oz" }]
   },
   {
-    name: "Skinny Margarita", category: "Classics", glass: "Collins Glass (Salt Rim)", glassIcon: "🥤",
+    name: "Skinny Margarita", category: "Signature", glass: "Collins Glass (Salt Rim)", glassIcon: "🥤",
     image: "2026-cocktails/skinny-margarita-website.jpg",
     desc: "All the flavor, none of the guilt. Corazón Reposado Tequila, fresh citrus and agave nectar — clean, bright and perfectly balanced.",
     garnish: "Lime Wedge",
@@ -321,16 +321,16 @@ const cocktails = [
     ingredients: [{ name: "Raspberries", amount: "2" }, { name: "Blackberry", amount: "1" }, { name: "Gin", amount: "1 1/2oz" }, { name: "Velvet Falernum", amount: "1/2oz" }, { name: "Lemon Juice", amount: "3/4oz" }, { name: "Simple Syrup", amount: "1/2oz" }, { name: "Prosecco", amount: "top" }]
   },
   {
-    name: "Basil Up", category: "Classics", glass: "Rocks Glass", glassIcon: "🥃",
+    name: "Basil Up", category: "Signature", glass: "Rocks Glass", glassIcon: "🥃",
     image: "2026-cocktails/basil-up-website.jpg",
     desc: "A fragrant, garden-fresh cocktail. Gin, floral St. Germain, fresh basil and cucumber — shaken and double strained over crushed ice.",
     garnish: "Basil Leaf & Cucumber",
     method: "Muddle Basil and Cucumbers. Add all other ingredients. Shaken & Double Strain.",
     ice: "Crushed Ice",
-    ingredients: [{ name: "Cucumber Slices", amount: "2" }, { name: "Basil Leaves", amount: "1-2" }, { name: "Gin", amount: "2oz" }, { name: "St.Germain", amount: "3/4oz" }, { name: "Lime Juice", amount: "3/4oz" }, { name: "Simple Syrup", amount: "1/2oz" }]
+    ingredients: [{ name: "Cucumber Slices", amount: "2" }, { name: "Basil Leaves", amount: "1-2" }, { name: "Gin", amount: "2oz" }, { name: "St.Germain", amount: "3/4oz" }, { name: "Lemon Juice", amount: "3/4oz" }, { name: "Simple Syrup", amount: "1/2oz" }]
   },
   {
-    name: "Summer Love", category: "Classics", glass: "Collins Glass", glassIcon: "🥤",
+    name: "Summer Love", category: "Signature", glass: "Collins Glass", glassIcon: "🥤",
     image: "2026-cocktails/love-in-summer-website.jpg",
     desc: "A summer romance in a glass. Rum, Velvet Falernum and Orgeat with fresh lime — light, tropical and utterly refreshing.",
     garnish: "Lime Wheel & Maraschino Cherry",
@@ -339,7 +339,7 @@ const cocktails = [
     ingredients: [{ name: "Rum", amount: "2oz" }, { name: "Velvet Falernum", amount: "1/2oz" }, { name: "Orgeat", amount: "1/2oz" }, { name: "Lime Juice", amount: "3/4oz" }]
   },
   {
-    name: "Summer Mule", category: "Classics", glass: "Copper Mug", glassIcon: "🫖",
+    name: "Summer Mule", category: "Signature", glass: "Copper Mug", glassIcon: "🫖",
     image: "2026-cocktails/summer-mule-website.jpg",
     desc: "A seasonal twist on the classic Moscow Mule — brightened with fresh cucumber and mint, shaken and topped with ginger beer.",
     garnish: "Cucumber & Mint",
@@ -348,7 +348,7 @@ const cocktails = [
     ingredients: [{ name: "Cucumber Slices", amount: "2" }, { name: "Mint", amount: "Pinch of" }, { name: "Vodka", amount: "2oz" }, { name: "Lime Juice", amount: "1oz" }, { name: "Simple Syrup", amount: "1/2oz" }, { name: "Ginger Beer", amount: "top" }]
   },
   {
-    name: "Smoked Margarita", category: "Classics", glass: "Rocks Glass", glassIcon: "🥃",
+    name: "Smoked Margarita", category: "Signature", glass: "Rocks Glass", glassIcon: "🥃",
     image: "2026-cocktails/smoked-margarita-website.jpg",
     desc: "A perfectly smoked take on the classic margarita. Corazon Reposado and Mezcal with lime and orange bitters — served over a large cube.",
     garnish: "Orange Dust/Peel & Crushed Pepper",
@@ -357,7 +357,7 @@ const cocktails = [
     ingredients: [{ name: "Corazon Reposado Tequila", amount: "1oz" }, { name: "Mezcal", amount: "1oz" }, { name: "Agave", amount: "3/4oz" }, { name: "Lime Juice", amount: "1oz" }, { name: "Orange Bitters", amount: "2 Dashes of" }]
   },
   {
-    name: "Añejo Old Fashioned", category: "Classics", glass: "Rocks Glass", glassIcon: "🥃",
+    name: "Añejo Old Fashioned", category: "Signature", glass: "Rocks Glass", glassIcon: "🥃",
     image: "2026-cocktails/anejo-old-fashioned-website.jpg",
     desc: "The Old Fashioned reconceived with premium Añejo tequila. Agave and aromatic bitters bring deep Mexican soul to this American icon.",
     garnish: "Orange Peel & Maraschino Cherry",
@@ -375,7 +375,7 @@ const cocktails = [
     ingredients: [{ name: "Vodka", amount: "1 1/2oz" }, { name: "Velvet Falernum", amount: "1/2oz" }, { name: "Pineapple Juice", amount: "1oz" }, { name: "Lemon Juice", amount: "3/4oz" }, { name: "Simple Syrup", amount: "1/2oz" }, { name: "Basil Leaves", amount: "2" }]
   },
   {
-    name: "Rum Punch", category: "Classics", glass: "Snifter", glassIcon: "🥃",
+    name: "Rum Punch", category: "Signature", glass: "Snifter", glassIcon: "🥃",
     image: "2026-cocktails/rum-punch-website.jpg",
     desc: "Caribbean vibes in every sip. Rum and Coconut Rum with lime, served with our house Original Sangría Mix® — festive, fruity and fun.",
     garnish: "1/2 Orange Wheel & Pineapple Leaf",
@@ -384,7 +384,7 @@ const cocktails = [
     ingredients: [{ name: "Rum", amount: "1oz" }, { name: "Coconut Rum", amount: "1oz" }, { name: "Lime Juice", amount: "1oz" }, { name: "Original Sangria Mix®", amount: "fill" }]
   },
   {
-    name: "Raspberry Mojito", category: "Classics", glass: "Collins Glass", glassIcon: "🥤",
+    name: "Raspberry Mojito", category: "Signature", glass: "Collins Glass", glassIcon: "🥤",
     image: "2026-cocktails/raspberry-mojito-website.jpg",
     desc: "The beloved mojito elevated with fresh raspberries for a burst of berry sweetness alongside the classic mint and lime.",
     garnish: "Raspberry, Mint & Lime Peel",
@@ -393,7 +393,7 @@ const cocktails = [
     ingredients: [{ name: "Raspberries", amount: "3" }, { name: "Mint", amount: "Pinch of" }, { name: "Rum", amount: "2oz" }, { name: "Lime Juice", amount: "1/2oz" }, { name: "Simple Syrup", amount: "3/4oz" }]
   },
   {
-    name: "Peartini", category: "Classics", glass: "Martini Glass (Sugar Rim)", glassIcon: "🍸",
+    name: "Peartini", category: "Signature", glass: "Martini Glass (Sugar Rim)", glassIcon: "🍸",
     image: "2026-cocktails/peartini-website.jpg",
     desc: "Autumn elegance in a martini glass. Pear Vodka, St. Germain and fresh lemon — shaken and double strained in a sugar-rimmed glass.",
     garnish: "Lemon Twist",
@@ -403,7 +403,7 @@ const cocktails = [
   },
   // ─── SIGNATURE ORIGINALS ─────────────────────────────────────────
   {
-    name: "Mexican Candy", category: "Originals", glass: "Coupe Glass (Tajín Rim)", glassIcon: "🍷",
+    name: "Mexican Candy", category: "Infusions", glass: "Coupe Glass (Tajín Rim)", glassIcon: "🍷",
     image: "2026-cocktails/mexican-candy-website.jpg",
     desc: "Inspired by the beloved Mexican street candy. Pineapple Serrano Infused Cachaça® with Framboise and lime — playful, vibrant and spicy-sweet.",
     garnish: "Lime Wheel",
@@ -412,7 +412,7 @@ const cocktails = [
     ingredients: [{ name: "Pineapple Serrano Infused Cachaça®", amount: "2oz" }, { name: "Framboise Liqueur", amount: "3/4oz" }, { name: "Lime Juice", amount: "3/4oz" }, { name: "Simple Syrup", amount: "3/4oz" }]
   },
   {
-    name: "Red & Wild", category: "Originals", glass: "Coupe Glass", glassIcon: "🍷",
+    name: "Red & Wild", category: "Infusions", glass: "Coupe Glass", glassIcon: "🍷",
     image: "2026-cocktails/red-and-wild-website.jpg",
     desc: "Bold, wild berry flavors meet our house Strawberry Infused Vodka® in this striking crimson original. Dark, lush and untamed.",
     garnish: "Lemon Twist",
@@ -421,7 +421,7 @@ const cocktails = [
     ingredients: [{ name: "Strawberry Infused Vodka®", amount: "2oz" }, { name: "St.Germain", amount: "1/2oz" }, { name: "Velvet Falernum", amount: "1/2oz" }, { name: "Lemon Juice", amount: "3/4oz" }, { name: "Simple Syrup", amount: "1/2oz" }]
   },
   {
-    name: "Magenta Blossom", category: "Originals", glass: "Coupe Glass", glassIcon: "🍷",
+    name: "Magenta Blossom", category: "Infusions", glass: "Coupe Glass", glassIcon: "🍷",
     image: "2026-cocktails/magenta-blossom-website.jpg",
     desc: "A floral masterpiece in vivid magenta. Our house Blueberry Infused Rum®, St. Germain and lemon create a color-changing, aromatic showstopper.",
     garnish: "3 Blueberries",
@@ -430,7 +430,7 @@ const cocktails = [
     ingredients: [{ name: "Blueberry Infused Rum®", amount: "2oz" }, { name: "St.Germain", amount: "1/2oz" }, { name: "Triple Sec", amount: "1/2oz" }, { name: "Lemon Juice", amount: "3/4oz" }, { name: "Simple Syrup", amount: "1/2oz" }]
   },
   {
-    name: "Blue Rush", category: "Originals", glass: "Rocks Glass", glassIcon: "🥃",
+    name: "Blue Rush", category: "Infusions", glass: "Rocks Glass", glassIcon: "🥃",
     image: "2026-cocktails/blue-rush-website.jpg",
     desc: "A vivid blue wave of tropical flavors — our house Blueberry Infused Rum®, orgeat and lime create a stunning, refreshing signature cocktail.",
     garnish: "Lime Wheel, Mint & Blueberry",
@@ -439,7 +439,7 @@ const cocktails = [
     ingredients: [{ name: "Blueberry Infused Rum®", amount: "2oz" }, { name: "Orgeat", amount: "1/2oz" }, { name: "Lime Juice", amount: "3/4oz" }, { name: "Simple Syrup", amount: "1/2oz" }, { name: "Mint", amount: "A pinch of" }]
   },
   {
-    name: "Kiwi Crush", category: "Originals", glass: "Rocks Glass (Muddled Raspberries on Bottom)", glassIcon: "🥃",
+    name: "Kiwi Crush", category: "Infusions", glass: "Rocks Glass (Muddled Raspberries on Bottom)", glassIcon: "🥃",
     image: "2026-cocktails/kiwi-crush-website.jpg",
     desc: "Fresh kiwi crushed with premium vodka, Velvet Falernum and lime — a vibrant green original served over crushed ice on a bed of muddled raspberries.",
     garnish: "Kiwi Wheel",
@@ -448,7 +448,7 @@ const cocktails = [
     ingredients: [{ name: "Kiwi", amount: "1/2" }, { name: "Vodka", amount: "2oz" }, { name: "Velvet Falernum", amount: "1/2oz" }, { name: "Lime Juice", amount: "3/4oz" }, { name: "Simple Syrup", amount: "1/2oz" }, { name: "Raspberries", amount: "3 (Muddle to the glass)" }]
   },
   {
-    name: "Cucumber Martini", category: "Originals", glass: "Martini Glass (Tajín Rim)", glassIcon: "🍸",
+    name: "Cucumber Martini", category: "Signature", glass: "Martini Glass (Tajín Rim)", glassIcon: "🍸",
     image: "2026-cocktails/cucumber-martini-website.jpg",
     desc: "Clean, crisp and cool. Premium vodka with our house Cucumber Mix® and lime — shaken and double strained in a Tajín-rimmed martini glass.",
     garnish: "Cucumber Slice",
@@ -457,7 +457,7 @@ const cocktails = [
     ingredients: [{ name: "Vodka", amount: "2oz" }, { name: "Cucumber Mix®", amount: "1 1/2oz" }, { name: "Lime Juice", amount: "1/2oz" }, { name: "Simple Syrup", amount: "1/2oz" }]
   },
   {
-    name: "Raspberry Dreaming", category: "Originals", glass: "Coupe Glass", glassIcon: "🍷",
+    name: "Raspberry Dreaming", category: "Infusions", glass: "Coupe Glass", glassIcon: "🍷",
     image: "2026-cocktails/raspberry-dreaming-website.jpg",
     desc: "A dreamy, cloud-like creation with our house Raspberry Gin Infusion®, Chambord and egg white foam. Close your eyes and float away.",
     garnish: "Bitters Design & Raspberry",
@@ -466,7 +466,7 @@ const cocktails = [
     ingredients: [{ name: "Raspberry Gin Infusion®", amount: "1 1/2oz" }, { name: "Chambord", amount: "3/4oz" }, { name: "Lemon Juice", amount: "3/4oz" }, { name: "Simple Syrup", amount: "1/2oz" }, { name: "Egg White", amount: "1" }]
   },
   {
-    name: "Mexican Brazilian", category: "Originals", glass: "Coupe Glass (Tajín Rim)", glassIcon: "🍷",
+    name: "Mexican Brazilian", category: "Infusions", glass: "Coupe Glass (Tajín Rim)", glassIcon: "🍷",
     image: "2026-cocktails/mexican-brazilian-website.jpg",
     desc: "A fusion of two great cocktail cultures — our house Pineapple Serrano Infused Cachaça® and Mezcal unite with Ancho Reyes for a bold, smoky, tropical original.",
     garnish: "Lime Wheel",
@@ -475,7 +475,7 @@ const cocktails = [
     ingredients: [{ name: "Pineapple Serrano Infused Cachaça®", amount: "1oz" }, { name: "Mezcal", amount: "1oz" }, { name: "Ancho Reyes", amount: "1/2oz" }, { name: "Agave", amount: "3/4oz" }, { name: "Lime Juice", amount: "3/4oz" }]
   },
   {
-    name: "Floating in Space", category: "Originals", glass: "Coupe Glass", glassIcon: "🍷",
+    name: "Floating in Space", category: "Infusions", glass: "Coupe Glass", glassIcon: "🍷",
     image: "2026-cocktails/floating-in-space-website.jpg",
     desc: "A galaxy of flavor — our house Blueberry Infused Rum®, Crème de Cassis, lemon and egg white create an otherworldly drink that defies gravity.",
     garnish: "Bitters Design & a Blackberry",
@@ -484,7 +484,7 @@ const cocktails = [
     ingredients: [{ name: "Blueberry Infused Rum®", amount: "1 1/2oz" }, { name: "Crème de Cassis", amount: "1/2oz" }, { name: "Lemon Juice", amount: "3/4oz" }, { name: "Simple Syrup", amount: "1/2oz" }, { name: "Egg White", amount: "1" }]
   },
   {
-    name: "The Green Goblin", category: "Originals", glass: "Coupe Glass", glassIcon: "🍷",
+    name: "The Green Goblin", category: "Infusions", glass: "Coupe Glass", glassIcon: "🍷",
     image: "2026-cocktails/green-goblin-website.jpg",
     desc: "Mischievously good. Vodka, St. Germain, fresh kiwi and mint create a vivid green cocktail that's as refreshing as it is beautiful.",
     garnish: "Kiwi Wheel",
@@ -493,7 +493,7 @@ const cocktails = [
     ingredients: [{ name: "Kiwi", amount: "1/2" }, { name: "Mint Leaves", amount: "3" }, { name: "Vodka", amount: "2oz" }, { name: "St.Germain", amount: "1/2oz" }, { name: "Lemon Juice", amount: "3/4oz" }, { name: "Simple Syrup", amount: "1/2oz" }]
   },
   {
-    name: "Spicy Pisco", category: "Originals", glass: "Coupe Glass", glassIcon: "🍷",
+    name: "Spicy Pisco", category: "Infusions", glass: "Coupe Glass", glassIcon: "🍷",
     image: "2026-cocktails/spicy-pisco-website.jpg",
     desc: "Peru meets heat. Pisco and our house Pineapple Serrano Infused Cachaça® with lemon and egg white — a bold, spicy South American sour.",
     garnish: "Bitters Design & Jalapeño Wheel",
@@ -502,7 +502,7 @@ const cocktails = [
     ingredients: [{ name: "Pisco", amount: "1oz" }, { name: "Pineapple Serrano Infused Cachaça®", amount: "1oz" }, { name: "Lemon Juice", amount: "3/4oz" }, { name: "Simple Syrup", amount: "3/4oz" }, { name: "Egg White", amount: "1" }]
   },
   {
-    name: "Carajillo", category: "Originals", glass: "Snifter", glassIcon: "🍹",
+    name: "Carajillo", category: "Desserts", glass: "Snifter", glassIcon: "🍹",
     image: "2026-cocktails/carajillo-website.jpg",
     desc: "Spain's beloved coffee cocktail — Licor 43 and hot espresso served over ice for a stunning hot-meets-cold experience.",
     garnish: "None",
@@ -511,7 +511,7 @@ const cocktails = [
     ingredients: [{ name: "Licor 43", amount: "1 1/2oz" }, { name: "Fresh Hot Espresso", amount: "1oz" }]
   },
   {
-    name: "Life Changer", category: "Originals", glass: "Snifter", glassIcon: "🥃",
+    name: "Life Changer", category: "Desserts", glass: "Snifter", glassIcon: "🥃",
     image: "2026-cocktails/life-changer-website.jpg",
     desc: "One sip and you'll understand the name. Licor 43, Rumchata and Mozart White Chocolate — flamed and poured over ice for an unforgettable experience.",
     garnish: "None",
@@ -520,7 +520,7 @@ const cocktails = [
     ingredients: [{ name: "Licor 43", amount: "1oz" }, { name: "Rumchata", amount: "1oz" }, { name: "Mozart White Chocolate", amount: "1oz" }]
   },
   {
-    name: "Dominicana", category: "Originals", glass: "Coupe Glass", glassIcon: "🍷",
+    name: "Dominicana", category: "Desserts", glass: "Coupe Glass", glassIcon: "🍷",
     image: "2026-cocktails/dominicana-website.jpg",
     desc: "A tribute to the Dominican Republic's finest — Flor de Caña Rum, Tia Maria, Rumchata and Dark Chocolate Liqueur with heavy whipped cream. Silky, indulgent and unforgettable.",
     garnish: "Maraschino Cherry & Cinnamon Powder",
@@ -529,7 +529,7 @@ const cocktails = [
     ingredients: [{ name: "Flor de Caña Rum", amount: "3/4oz" }, { name: "Tia Maria liqueur", amount: "3/4oz" }, { name: "Rumchata", amount: "3/4oz" }, { name: "Dark Chocolate Liqueur", amount: "3/4oz" }, { name: "Heavy Whipped Cream", amount: "in tin" }]
   },
   {
-    name: "Cocoa Cloud", category: "Originals", glass: "Coupe Glass", glassIcon: "🍷",
+    name: "Cocoa Cloud", category: "Desserts", glass: "Coupe Glass", glassIcon: "🍷",
     image: "2026-cocktails/cocoa-cloud-website.jpg",
     desc: "A dessert cocktail as light as a cloud. 1921 Creme de Tequila, Amarula, Kahlúa and whipped cream — shaken and served up for deep cocoa indulgence.",
     garnish: "Maraschino Cherry & Grated Nutmeg",
@@ -538,7 +538,7 @@ const cocktails = [
     ingredients: [{ name: "1921 Creme de Tequila", amount: "1 1/2oz" }, { name: "Amarula liqueur", amount: "1oz" }, { name: "Kahlúa coffee liqueur", amount: "1oz" }, { name: "Whipped Cream", amount: "in tin" }]
   },
   {
-    name: "Espress Ya'self", category: "Originals", glass: "Martini Glass", glassIcon: "🍸",
+    name: "Espress Ya'self", category: "Desserts", glass: "Martini Glass", glassIcon: "🍸",
     image: "2026-cocktails/espress-yaself-website.jpg",
     desc: "Bold, confident, unapologetic. 1921 Crema de Tequila, Mr. Black Coffee Liqueur, Amarula and fresh espresso with whipped cream — one sip at a time.",
     garnish: "3 Coffee Beans & Grated Nutmeg",
@@ -547,7 +547,7 @@ const cocktails = [
     ingredients: [{ name: "1921 Crema de Tequila", amount: "1oz" }, { name: "Mr. Black Coffee Liqueur", amount: "1oz" }, { name: "Amarula", amount: "1oz" }, { name: "Espresso (single shot)", amount: "1 shot" }, { name: "Whipped Cream", amount: "in tin" }]
   },
   {
-    name: "Key Lime Pie Martini", category: "Originals", glass: "Martini Glass (Key Lime Syrup)", glassIcon: "🍸",
+    name: "Key Lime Pie Martini", category: "Desserts", glass: "Martini Glass (Key Lime Syrup)", glassIcon: "🍸",
     image: "2026-cocktails/key-lime-pie-martini-website.jpg",
     desc: "Dessert in a glass. Licor 43, Half & Half and fresh lime — sweet, tangy and utterly decadent.",
     garnish: "Lime Twist & Lime Zest",
@@ -556,7 +556,7 @@ const cocktails = [
     ingredients: [{ name: "Licor 43", amount: "2oz" }, { name: "Half & Half", amount: "2oz" }, { name: "Lime Juice", amount: "1/2oz" }, { name: "Simple Syrup", amount: "1/2oz" }]
   },
   {
-    name: "Crème Brulee Martini", category: "Originals", glass: "Coupe Glass", glassIcon: "🍸",
+    name: "Crème Brulee Martini", category: "Desserts", glass: "Coupe Glass", glassIcon: "🍸",
     image: "2026-cocktails/creme-brulee-martini-website.jpg",
     desc: "Rich, velvety and indulgent — Licor 43 Crème Brulee, Vanilla Vodka, heavy cream and Mr. Black with burnt caramel syrup, topped with whipped cream for an unforgettable dessert cocktail.",
     garnish: "3 Blueberries",
@@ -602,7 +602,7 @@ const cocktails = [
     ingredients: [{ name: "Vodka", amount: "2oz" }, { name: "Cranberry Juice", amount: "top" }]
   },
   {
-    name: "Chocolate Martini", category: "Originals", glass: "Martini Glass (Chocolate Syrup)", glassIcon: "🍸",
+    name: "Chocolate Martini", category: "Classics", glass: "Martini Glass (Chocolate Syrup)", glassIcon: "🍸",
     image: "2026-cocktails/chocolate-martini-website.jpg",
     desc: "Pure indulgence in a glass. Licor 43, dark chocolate liqueur and Half & Half — rich, creamy and dangerously smooth.",
     garnish: "Chocolate Powder",
@@ -638,7 +638,7 @@ const cocktails = [
     ingredients: [{ name: "Gin", amount: "2oz" }, { name: "Honey", amount: "3/4oz" }, { name: "Lemon Juice", amount: "3/4oz" }, { name: "Angostura Bitters", amount: "2 dashes" }]
   },
   {
-    name: "Fumblin Dublin", category: "Originals", glass: "Rocks Glass", glassIcon: "🥃",
+    name: "Fumblin Dublin", category: "Signature", glass: "Rocks Glass", glassIcon: "🥃",
     image: "2026-cocktails/fumblin-dublin-website.jpg",
     desc: "Irish whiskey gets tropical — Paddy's meets fresh pineapple juice and a splash of Blue Curaçao for a surprising, vibrant twist on a spirit-forward drink.",
     garnish: "Mint",
@@ -701,7 +701,7 @@ const cocktails = [
     ingredients: [{ name: "Tequila", amount: "1/2oz" }, { name: "Vodka", amount: "1/2oz" }, { name: "Gin", amount: "1/2oz" }, { name: "Rum", amount: "1/2oz" }, { name: "Triple Sec", amount: "1/2oz" }, { name: "Lemon Juice", amount: "3/4oz" }, { name: "Simple Syrup", amount: "1/2oz" }, { name: "Coke", amount: "top" }]
   },
   {
-    name: "Love is in the Air", category: "Originals", glass: "Rocks Glass", glassIcon: "🥃",
+    name: "Love is in the Air", category: "Signature", glass: "Rocks Glass", glassIcon: "🥃",
     image: "2026-cocktails/love-is-in-the-air-website.jpg",
     desc: "Romance in a glass — fresh raspberries and mint meet our house Raspberry Infused Gin® with Velvet Falernum and citrus. Served over a large cube.",
     garnish: "Raspberry, Lemon Wheel & Mint Leaves",
@@ -728,7 +728,7 @@ const cocktails = [
     ingredients: [{ name: "Tequila", amount: "2oz" }, { name: "Triple Sec", amount: "1/2oz" }, { name: "Lime Juice", amount: "3/4oz" }, { name: "Agave", amount: "3/4oz" }]
   },
   {
-    name: "Mexican Martini", category: "Originals", glass: "Martini Glass (Tajín Rim)", glassIcon: "🍸",
+    name: "Mexican Martini", category: "Signature", glass: "Martini Glass (Tajín Rim)", glassIcon: "🍸",
     image: "2026-cocktails/mexican-martini-website.jpg",
     desc: "Austin's legendary cocktail — tequila, Cointreau, orange and lime with a briny olive twist. Served up in a Tajín-rimmed glass.",
     garnish: "Lime Wheel",
