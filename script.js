@@ -199,7 +199,7 @@ const cocktails = [
     image: "2026-cocktails/cuban-sazerac-website.jpg",
     desc: "New Orleans' oldest cocktail reimagined with aged rum and a hint of tropical warmth. Absinthe-rinsed, bitters-kissed, pure sophistication.",
     garnish: "Banana Chip",
-    method: "Add all ingredients besides the Absinthe. Shaken, Double strain. (Glass rinsed with Absinthe)",
+    method: "Add all ingredients besides the Absinthe. Stirred, Double strain. (Glass rinsed with Absinthe)",
     ice: "Large Cube",
     ingredients: [{ name: "Añejo Rum", amount: "2oz" }, { name: "Banana du Brasil", amount: "1/4oz" }, { name: "Simple Syrup", amount: "1/2oz" }, { name: "Peychaud's Bitters", amount: "2 dashes" }, { name: "Absinthe", amount: "to rinse glass" }]
   },
@@ -508,7 +508,7 @@ const cocktails = [
     garnish: "None",
     method: "Add a hot espresso shot, Licor 43 and shake with ice. Pour into snifter glass.",
     ice: "Regular Ice",
-    ingredients: [{ name: "Licor 43", amount: "1 1/2oz" }, { name: "Fresh Hot Espresso", amount: "1oz" }]
+    ingredients: [{ name: "Licor 43", amount: "1 1/2oz" }, { name: "Fresh Hot Espresso", amount: "1 shot" }]
   },
   {
     name: "Life Changer", category: "Desserts", glass: "Snifter", glassIcon: "🥃",
