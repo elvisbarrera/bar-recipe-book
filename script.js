@@ -653,7 +653,7 @@ const cocktails = [
     garnish: "2 Cocktail Onions",
     method: "Add all ingredients. Stir & Strain.",
     ice: "None",
-    ingredients: [{ name: "Gin", amount: "2 1/2oz" }, { name: "Dry Vermouth", amount: "1/2oz" }]
+    ingredients: [{ name: "Vodka", amount: "2 1/2oz" }, { name: "Dry Vermouth", amount: "1/2oz" }]
   },
   {
     name: "Godfather", category: "Classics", glass: "Snifter", glassIcon: "🥃",
