@@ -626,7 +626,7 @@ const cocktails = [
     garnish: "Whipped Cream & Strawberries",
     method: "Add all ingredients. Blend with Ice.",
     ice: "Frozen",
-    ingredients: [{ name: "Strawberries", amount: "4" }, { name: "Vodka", amount: "2oz" }, { name: "Lime Juice", amount: "3/4oz" }, { name: "Simple Syrup", amount: "3/4oz" }]
+    ingredients: [{ name: "Strawberries", amount: "4" }, { name: "Rum", amount: "2oz" }, { name: "Lime Juice", amount: "3/4oz" }, { name: "Simple Syrup", amount: "3/4oz" }]
   },
   {
     name: "Fitzgerald", category: "Classics", glass: "Coupe Glass", glassIcon: "🍷",
@@ -653,7 +653,7 @@ const cocktails = [
     garnish: "2 Cocktail Onions",
     method: "Add all ingredients. Stir & Strain.",
     ice: "None",
-    ingredients: [{ name: "Vodka", amount: "2 1/2oz" }, { name: "Dry Vermouth", amount: "1/2oz" }]
+    ingredients: [{ name: "Gin", amount: "2 1/2oz" }, { name: "Dry Vermouth", amount: "1/2oz" }]
   },
   {
     name: "Godfather", category: "Classics", glass: "Snifter", glassIcon: "🥃",
