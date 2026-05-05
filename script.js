@@ -535,7 +535,7 @@ const cocktails = [
     garnish: "Maraschino Cherry & Grated Nutmeg",
     method: "Add all ingredients. Shaken, Double strain.",
     ice: "None",
-    ingredients: [{ name: "1921 Creme de Tequila", amount: "1 1/2oz" }, { name: "Amarula liqueur", amount: "1oz" }, { name: "Kahlúa coffee liqueur", amount: "1oz" }, { name: "Whipped Cream", amount: "in tin" }]
+    ingredients: [{ name: "1921 Creme de Tequila", amount: "1oz" }, { name: "Amarula liqueur", amount: "1oz" }, { name: "Kahlúa coffee liqueur", amount: "1oz" }, { name: "Whipped Cream", amount: "in tin" }]
   },
   {
     name: "Espress Ya'self", category: "Desserts", glass: "Martini Glass", glassIcon: "🍸",
