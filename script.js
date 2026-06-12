@@ -123,12 +123,12 @@ const cocktails = [
   },
   {
     name: "Watermelon Breeze", category: "Signature", glass: "Rocks Glass", glassIcon: "🥃",
-    image: "2026-cocktails/watermelon-breeze-website.jpg",
+    image: "2026-cocktails/watermelon-breeze-website-2.jpg",
     desc: "A refreshing blend of premium berry vodka, fresh watermelon, lemon and Velvet Falernum, served ice-cold for the perfect balance of bold and crisp flavors.",
-    garnish: "Watermelon",
+    garnish: "Lemon Wheel Twisted",
     method: "Add all ingredients. Shaken & double strain.",
     ice: "Regular Ice",
-    ingredients: [{ name: "Watermelon", amount: "4-5 Pieces" }, { name: "Sugar", amount: "1/4 tsp" }, { name: "Grey Goose Berry Vodka", amount: "2oz" }, { name: "Velvet Falernum", amount: "1/2oz" }, { name: "Lemon Juice", amount: "3/4oz" }]
+    ingredients: [{ name: "Watermelon Puree", amount: "2oz" }, { name: "Grey Goose Berry Vodka", amount: "2oz" }, { name: "Velvet Falernum", amount: "1/2oz" }, { name: "Lemon Juice", amount: "3/4oz" }]
   },
   {
     name: "Passion Fruit Margarita 🔥", category: "Signature", glass: "Rocks Glass (Sugar Rim)", glassIcon: "🥃",
@@ -897,6 +897,70 @@ const cocktails = [
     method: "Mix all ingredients together. Refrigerate until service.",
     ice: "N/A",
     ingredients: [{ name: "Zing Zang", amount: "2 bottles" }, { name: "Worcestershire", amount: "1 cup" }, { name: "Horseradish", amount: "2oz" }, { name: "Tabasco", amount: "1oz" }, { name: "Black Pepper", amount: "1/2oz" }]
+  },
+  // ─── SUMMER / SPRITZ MENU ────────────────────────────────────────
+  {
+    name: "Mangonada Margarita", category: "Seasonal", glass: "Rocks Glass (Chamoy & Tajín)", glassIcon: "🥃",
+    image: "2026-cocktails/mangonada-margarita-website.jpg",
+    desc: "A bold Mexican-inspired twist on the classic margarita. Fresh mango puree meets tequila and lime, finished in a Chamoy and Tajín-rimmed glass for a sweet, spicy, and tangy kick.",
+    garnish: "Mango Chilli & Lime Wheel",
+    method: "Add all ingredients to shaker. Shake well and strain into a Chamoy and Tajín-rimmed rocks glass over regular ice.",
+    ice: "Regular Ice",
+    ingredients: [{ name: "Mango Puree", amount: "1 1/2oz" }, { name: "Tequila", amount: "1 1/2oz" }, { name: "Agave", amount: "1/2oz" }, { name: "Lime Juice", amount: "3/4oz" }, { name: "Triple Sec", amount: "1/2oz" }]
+  },
+  {
+    name: "Lavender Fog", category: "Seasonal", glass: "Collins Glass", glassIcon: "🥤",
+    image: "2026-cocktails/lavender-fog-website.jpg",
+    desc: "Dreamy, floral, and refreshingly bright. Gin and Limoncello are lifted by lavender syrup, fresh lemon juice, and lavender bitters, then crowned with Crème de Violette for a stunning layered finish.",
+    garnish: "Lavender Flower & Lemon Wheel",
+    method: "Add Gin, Limoncello, Lavender Monin, Lemon Juice, and Lavender Bitters to shaker. Double strain into a Collins glass over regular ice. Slowly pour Crème de Violette over the top.",
+    ice: "Regular Ice",
+    ingredients: [{ name: "Gin", amount: "1oz" }, { name: "Limoncello", amount: "1oz" }, { name: "Lavender Monin", amount: "1/2oz" }, { name: "Lemon Juice", amount: "1/2oz" }, { name: "Lavender Bitters", amount: "3 Dashes" }, { name: "Crème De Violette", amount: "1oz" }]
+  },
+  {
+    name: "Negroni Sbagliato", category: "Seasonal", glass: "Rocks Glass", glassIcon: "🥃",
+    image: "2026-cocktails/Negroni-sbagliato-website.jpg",
+    desc: "The accidental Negroni — and a beautiful mistake. Campari and sweet vermouth are topped with Prosecco instead of gin, making this Italian classic lighter, bubblier, and endlessly sippable.",
+    garnish: "Orange Dust & Peel",
+    method: "Add Campari and Sweet Vermouth to a rocks glass over regular ice. Top with Prosecco and stir gently. Garnish with orange dust and peel.",
+    ice: "Regular Ice",
+    ingredients: [{ name: "Campari", amount: "1oz" }, { name: "Sweet Vermouth", amount: "1oz" }, { name: "Prosecco", amount: "Top" }]
+  },
+  {
+    name: "Aperol Corona Spritz", category: "Seasonal", glass: "Aperol Glass (or Beer Glass)", glassIcon: "🍺",
+    image: "2026-cocktails/Aperol-Corona-Spritz-website.jpg",
+    desc: "A refreshing summer fusion. Aperol and fresh lime meet a full Corona Beer in a salt-rimmed glass — crisp, citrusy, and perfect for warm-weather sipping without any ice.",
+    garnish: "Salt Rim & Lime Wedge",
+    method: "Add Aperol and Lime Juice to an Aperol or beer glass with a salted rim. Pour in the Corona Beer. No ice.",
+    ice: "No Ice",
+    ingredients: [{ name: "Aperol", amount: "1 1/2oz" }, { name: "Lime Juice", amount: "3/4oz" }, { name: "Corona Beer", amount: "1" }]
+  },
+  {
+    name: "Aperol Spritz", category: "Seasonal", glass: "Wine Glass", glassIcon: "🍷",
+    image: "2026-cocktails/Aperol-Spritz-website.jpg",
+    desc: "Italy's most iconic aperitivo. Bittersweet Aperol meets chilled Prosecco and a splash of sparkling water — bright, effervescent, and impossibly easy to drink at any hour.",
+    garnish: "Orange Slice",
+    method: "Add regular ice to a wine glass. Pour Aperol and Prosecco. Top with sparkling water and stir gently. Garnish with an orange slice.",
+    ice: "Regular Ice",
+    ingredients: [{ name: "Aperol", amount: "1 1/2oz" }, { name: "Prosecco", amount: "4oz" }, { name: "Sparkling Water", amount: "Top" }]
+  },
+  {
+    name: "Hugo Spritz", category: "Seasonal", glass: "Wine Glass", glassIcon: "🍷",
+    image: "2026-cocktails/Hugo-Spritz-website.jpg",
+    desc: "The elegant spritz from the Alps. St. Germain elderflower liqueur adds a delicate floral sweetness to Prosecco and sparkling water, finished with fresh mint and a lime wheel.",
+    garnish: "Lime Wheel & Mint Leaves",
+    method: "Add regular ice to a wine glass. Pour St. Germain and Prosecco. Top with sparkling water. Garnish with lime wheel and mint leaves.",
+    ice: "Regular Ice",
+    ingredients: [{ name: "St. Germain", amount: "1 1/2oz" }, { name: "Prosecco", amount: "4oz" }, { name: "Sparkling Water", amount: "Top" }]
+  },
+  {
+    name: "Limoncello Spritz", category: "Seasonal", glass: "Wine Glass", glassIcon: "🍷",
+    image: "2026-cocktails/Limoncello-Spritz-website.jpg",
+    desc: "Sunshine in a glass. Italian Limoncello and Prosecco are topped with sparkling water for a zesty, lightly sweet spritz that's as refreshing as a coastal Italian afternoon.",
+    garnish: "Lemon Wheel",
+    method: "Add regular ice to a wine glass. Pour Limoncello and Prosecco. Top with sparkling water. Garnish with a lemon wheel.",
+    ice: "Regular Ice",
+    ingredients: [{ name: "Limoncello", amount: "1 1/2oz" }, { name: "Prosecco", amount: "4oz" }, { name: "Sparkling Water", amount: "Top" }]
   }
 ];
 
@@ -1027,7 +1091,9 @@ function openModal(c) {
 }
 function closeModal(e) { if (e.target === document.getElementById('modalBackdrop')) closeModalBtn(); }
 function closeModalBtn() { document.getElementById('modalBackdrop').classList.remove('open'); document.body.style.overflow = ''; }
-document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModalBtn(); });
+function openFullImage() { const src = document.getElementById('modalImg').src; document.getElementById('fullImg').src = src; document.getElementById('fullImgBackdrop').classList.add('open'); }
+function closeFullImage() { document.getElementById('fullImgBackdrop').classList.remove('open'); }
+document.addEventListener('keydown', e => { if (e.key === 'Escape') { closeFullImage(); closeModalBtn(); } });
 
 // ── SEARCH ──
 document.getElementById('searchInput').addEventListener('input', function () {

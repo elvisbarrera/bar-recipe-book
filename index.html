@@ -27,7 +27,7 @@
       <div class="ornament-line"></div>
     </div>
     <h1>The <span>Cocktail</span> Book</h1>
-    <p class="header-subtitle">99 Recipes · Curated Bar Menu</p>
+    <p class="header-subtitle">All Recipes · Curated Bar Menu</p>
   </header>
 
   <!-- CATEGORY FILTER -->
@@ -66,8 +66,16 @@
   <div class="modal-backdrop" id="modalBackdrop" onclick="closeModal(event)">
     <div class="modal" id="modal">
       <button class="modal-close" onclick="closeModalBtn()">✕</button>
+      <button class="modal-expand" id="modalExpandBtn" onclick="openFullImage()" title="View full image">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
+      </button>
       <img id="modalImg" src="" alt="" class="modal-image" />
       <div class="modal-image-overlay"></div>
+  <!-- FULL IMAGE LIGHTBOX -->
+  <div class="fullimg-backdrop" id="fullImgBackdrop" onclick="closeFullImage()">
+    <button class="fullimg-close" onclick="closeFullImage()">✕</button>
+    <img id="fullImg" src="" alt="" class="fullimg-img" />
+  </div>
       <div class="modal-content">
         <div class="modal-eyebrow" id="modalEyebrow"></div>
         <div class="modal-title" id="modalTitle"></div>
