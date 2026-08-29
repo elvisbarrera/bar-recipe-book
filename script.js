@@ -47,6 +47,33 @@ const cocktails = [
     ice: "Regular Ice",
     ingredients: [{ name: "Ghost Tequila", amount: "2oz" }, { name: "Hibiscus Syrup", amount: "1/2oz" }, { name: "Agave", amount: "3/4oz" }, { name: "Triple Sec", amount: "3/4oz" }, { name: "Lime Juice", amount: "3/4oz" }]
   },
+  {
+    name: "Pistachio Martini", category: "Seasonal", glass: "Coupe Glass", glassIcon: "🍷",
+    image: "2026-cocktails/pistachio-martini-website.jpg",
+    desc: "A nutty, dessert-inspired martini blending vanilla vodka and amaretto with a swirl of blue curaçao and pistachio, finished creamy and smooth.",
+    garnish: "Pistachio on Center",
+    method: "Add all ingredients. Shaken & double strain.",
+    ice: "None",
+    ingredients: [{ name: "Vanilla Vodka", amount: "1oz" }, { name: "Amaretto", amount: "1oz" }, { name: "Baileys", amount: "3/4oz" }, { name: "Blue Curaçao", amount: "1/4oz" }, { name: "Pistachio Extract", amount: "6 dashes" }, { name: "Half & Half", amount: "1/2oz" }, { name: "Symple", amount: "1/2oz" }]
+  },
+  {
+    name: "Tiramisu Martini", category: "Seasonal", glass: "Martini Glass", glassIcon: "🍸",
+    image: "2026-cocktails/tiramisu-martini-website.jpg",
+    desc: "A dessert martini inspired by the Italian classic — vodka, chocolate Licor 43, and espresso blended into a rich, creamy sip.",
+    garnish: "Cocoa Powder & Lady Finger",
+    method: "Add all ingredients. Shaken & double strain.",
+    ice: "None",
+    ingredients: [{ name: "Vodka", amount: "3/4oz" }, { name: "Mr. Black", amount: "3/4oz" }, { name: "Licor 43 Chocolate", amount: "3/4oz" }, { name: "Espresso", amount: "3/4oz" }, { name: "Half & Half", amount: "1/2oz" }, { name: "Symple", amount: "1/2oz" }]
+  },
+  {
+    name: "Fig Side Car", category: "Seasonal", glass: "Rocks Glass", glassIcon: "🥃",
+    image: "2026-cocktails/fig-side-car-website.jpg",
+    desc: "A cozy fall sidecar — Hennessy cognac paired with rich fig syrup and bright lemon, served over a big rock with dried fig.",
+    garnish: "Dried Fig",
+    method: "Add all ingredients. Shaken & pour over big rock.",
+    ice: "Big Rock",
+    ingredients: [{ name: "Hennessy", amount: "1 1/2oz" }, { name: "Fig Syrup", amount: "1oz" }, { name: "Lemon Juice", amount: "1/4oz" }]
+  },
   // ─── WINTER / LIMITED ────────────────────────────────────────────
   {
     name: "Dark 'N' Stormy", category: "Classics", glass: "Collins Glass", glassIcon: "🥤",
@@ -76,8 +103,8 @@ const cocktails = [
     ingredients: [{ name: "Cranberries", amount: "6" }, { name: "Mint", amount: "Pinch Of" }, { name: "Brugal 1888", amount: "2oz" }, { name: "Lime Juice", amount: "3/4oz" }, { name: "Simple Syrup", amount: "3/4oz" }, { name: "Cranberry Juice", amount: "1oz" }]
   },
   {
-    name: "Autumn Pineapple", category: "Signature", glass: "Rocks Glass", glassIcon: "🥃",
-    image: "2026-cocktails/autumn-pineapple-website.jpg",
+    name: "Autumn Pineapple", category: "Seasonal", glass: "Rocks Glass", glassIcon: "🥃",
+    image: "2026-cocktails/autumn-pineapple-website-2.jpg",
     desc: "(Abacaxi de Outono) Grilled pineapple with cinnamon and sugar meets cachaça, citrus, honey, and a touch of bitters, served over ice with a smoky pineapple and cinnamon garnish.",
     garnish: "Cinnamon Stick & Piece of Grilled Pineapple",
     method: "Muddle 3 Slice of Grilled Pineapple. Add the other ingredients, Shake and Double Strain.",
